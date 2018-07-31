@@ -1,0 +1,14 @@
+echo 'Welcome to Pomodoro'
+
+echo 'Please specify as follows: pomodoro-quantity pomodoro-duration short-break-duration long-break-duration'
+
+read -s pomq pomd sbr lbr
+
+echo $pomq
+echo $pomd
+echo $sbr
+echo $lbr 
+
+notify-send 'x' 'xx'
+#play beep-11.wav 
+
